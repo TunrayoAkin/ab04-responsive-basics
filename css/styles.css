@@ -38,18 +38,27 @@ section:hover {
 
 @media screen and (min-width: 180px) {
     body {
-        background-color: red;
+        background-color: black;
     }
 }
 @media screen and (min-width: 580px) {
     body {
-        background-color: yellow;
+        background-color: grey;
+    }
+    section {
+      width: 30%;
+      display: inline-block;
     }
 }
 
+
 @media screen and (min-width: 1080px) {
     body {
-        background-color: green;
+        background-color: white;
+    }
+    section {
+      width: 45%;
+      display: inline-block;
     }
 }
 
